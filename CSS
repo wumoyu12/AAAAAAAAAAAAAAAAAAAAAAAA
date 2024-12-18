@@ -1,8 +1,59 @@
+body
+{
+	background:lightyellow;
+	font-family: Times New Roman;
+}
+
 h1
 {
 	text-align:center;
+	font-size:38px;
 }
-nav ul
+
+h2
 {
-	padding-left:20px;
+	margin-left: 20px;
+}
+
+header
+{
+	padding: 20px;
+	background: #6bb5f1;
+}
+
+
+nav
+{
+	background: lightblue;
+	float: left;
+	width: 10%;
+	height:1000px;
+}
+
+label[id = "lblwel"]
+{
+	font-size:36px;	
+}
+
+label[id = "lblwelmsg"]
+{
+	font-size:20px;
+}
+
+th, td
+{
+	text-align:left;
+	border: 1px solid;
+	width:1660px;
+}
+
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img [id = "imgcart"]
+{
+	text-align:left;
 }
